@@ -99,6 +99,8 @@
   --color-customer-code-background: #4545453c;
 }
 
+
+
 .markdown-body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -108,6 +110,10 @@
   font-size: 14px;
   line-height: 1.5;
   word-wrap: break-word;
+}
+
+.markdown-body pre > code.hljs {
+  background: transparent !important;
 }
 
 .light {
