@@ -293,7 +293,7 @@ export function isVisionModel(model: string) {
 }
 
 export function isDalle3(model: string) {
-  return "dall-e-3" === model;
+  return model === "dall-e-3" || model === "stable-diffusion-3-medium"|| model === "stable-diffusion-3.5-large-turbo";
 }
 
 export function getTimeoutMSByModel(model: string) {
